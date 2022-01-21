@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<!-- Font Awesome CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+    <style>
+        body {
+background: linear-gradient(to left, pink, white);
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+    
+}
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+.student-profile .card {
+    border-radius: 10px;
+    margin-top: 8rem;
+    box-shadow: 2px 3px 4px 21px black;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">E-Docs</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Catalog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Orders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Payment</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sign in / Sign up
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Sign in</a></li>
+            <li><a class="dropdown-item" href="#">Sign up</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="student-profile py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent text-center">
+            <img class="profile_img" src="./p2.jpg" alt="student dp">
+            <h3>John Doe</h3>
+          </div>
+          <div class="card-body">
+            <p class="mb-0"><strong class="pr-1">Email ID:</strong>john@gmail.com</p>
+            <p class="mb-0"><strong class="pr-1">Contact:</strong>9733025461</p>
+            <p class="mb-0"><strong class="pr-1">Address:</strong>Sector - 78, Noida, Delhi-92</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent border-0">
+            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Recent purachase History</h3>
+          </div>
+          <div class="card-body pt-0">
+            <table class="table table-bordered">
+              <tr>
+                <th width="30%">Order ID</th>
+                <td width="2%">:</td>
+                <td>125562</td>
+              </tr>
+              <tr>
+                <th width="30%">Date</th>
+                <td width="2%">:</td>
+                <td>21/02/2022</td>
+              </tr>
+              <tr>
+                <th width="30%">Book Name</th>
+                <td width="2%">:</td>
+                <td>Harry Potter, Edition 1</td>
+              </tr>
+              <tr>
+                <th width="30%">Author</th>
+                <td width="2%">:</td>
+                <td>J. K. Rowling</td>
+              </tr>
+              <tr>
+                <th width="30%">Quantity</th>
+                <td width="2%">:</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th width="30%">Price</th>
+                <td width="2%">:</td>
+                <td>2530.23 Rs.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+          
+    </div>
+  </div>
+</div>
+    </div>
+</body>
+</html>
